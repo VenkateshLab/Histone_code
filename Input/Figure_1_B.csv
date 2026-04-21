@@ -1,0 +1,14 @@
+STATES,MNEMONICS,DESCRIPTION,Histone Mark Associated
+1,Act Pro,Active Promoter,H3K4me3 + H3K27ac / H3K9ac
+2,Flnk Pro,Flanking Promoter region,H3K4me2 + H3K27ac / H3K9ac
+3,Bi. Pro,Bivalent Promoter,H3K4me3 + H3K27me3
+4,Wk Pro,Weak Promoter,lesser H3K4me3 + H3K27ac
+5,Act Enh,Active Enhancer,H3K4me1 + H3K27ac / H3K9ac
+6,Bi. Enh,Bivalent Enhancer,H3K4me1 - H3K427ac / H3K9ac
+7,Wk Enh,Weak Enhancer,lesser H3K4me1
+8,Act Trns,Active Transcription,H3K4me3 + H3K27ac + H3K36me3
+9,Tr GB,Transcribed gene body,high H3K36me3 - H3K27me3
+10,Wk Tr GB,Weak Transcribed,high H3K36me3 + H3K27me3
+11,Rp PC,Repressive PolyComb,high H3K27me3 - H3K4me3
+12,Wk Rp PC,Weak Repressive PolyComb,lesser H3K27me3
+13,Het,Heterochromatin,H3K9me3
